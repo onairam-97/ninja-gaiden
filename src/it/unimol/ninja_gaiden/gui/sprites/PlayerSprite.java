@@ -104,6 +104,10 @@ public class PlayerSprite {
         this.y = y;
     }
 
+    public void setX2(int x2) {
+        this.x2 = x2;
+    }
+
     public boolean isLeftLimits() {
         return leftLimits;
     }
