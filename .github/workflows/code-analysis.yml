@@ -26,4 +26,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: report
-        path: build/
+        path: target/checkstyle-result.xml
