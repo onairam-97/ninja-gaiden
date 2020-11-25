@@ -533,7 +533,7 @@ public class LayerPanel extends JPanel implements ActionListener {
         this.sounds = new Sound[] {
                 Resources.getSound("/sound_effects/stage_1_soundtrack.wav"),
                 Resources.getSound("/sound_effects/boss_room_soundtrack.wav"),
-                Resources.getSound("/sound_effects/Game Over_soundtrack .wav"),
+                Resources.getSound("/sound_effects/Game_Over_soundtrack.wav"),
                 Resources.getSound("/sound_effects/ninja_gaiden_win_soundtrack.wav"),
                 Resources.getSound("/sound_effects/26.wav")};
     }
