@@ -107,6 +107,18 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <!-- SpotBugs -->
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.1.4</version>
+                <configuration>
+                    <xmlOutput>true</xmlOutput>
+                    <xmlOutputDirectory>target/spotbugs</xmlOutputDirectory>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 </project>
