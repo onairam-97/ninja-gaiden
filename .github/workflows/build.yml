@@ -23,7 +23,7 @@ jobs:
     - name: Run Maven Test Phase
       env:
         TEST_GITHUB_API_TOKEN: ${{ secrets.TEST_GITHUB_API_TOKEN }}
-      run: mvn -B clean test
+      run: mvn -B clean test -DskipExceptions
       
   build:
 
