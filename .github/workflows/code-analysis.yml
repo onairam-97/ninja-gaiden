@@ -11,7 +11,7 @@ on:
 
 jobs:
 
-  checkstyle
+  checkstyle:
     runs-on: ubuntu-latest
 
     steps:
