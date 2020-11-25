@@ -16,9 +16,13 @@ class LayerPanelTest {
 
         LayerPanel.getInstance().getPlayerSprite().setX2(618);
 
-        LayerPanel.getInstance().getPlayerSprite().getCollisionBox().setBounds(705, 293, 45, 65);
+        LayerPanel.getInstance().getPlayerSprite().getCollisionBox().setBounds(705, 293,  45,  65);
 
         LayerPanel.getInstance().collide();
+
+        System.out.println(LayerPanel.getInstance().getMapXRightCollision0());
+        System.out.println(LayerPanel.getInstance().getPlayerSprite().getCollisionBox().x);
+        System.out.println(LayerPanel.getInstance().getPlayerSprite().getY());
 
         assertTrue(LayerPanel.getInstance().isCollide());
     }
