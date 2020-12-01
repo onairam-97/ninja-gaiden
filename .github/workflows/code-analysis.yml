@@ -65,5 +65,5 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: spotbugs-report
-        path: target/spotbugs.xml
+        path: target/spotbugs/spotbugs.xml
         retention-days: 2
