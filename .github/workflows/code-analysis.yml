@@ -60,10 +60,10 @@ jobs:
       with:
         java-version: 1.8
     - name: Run Spotbugs
-      run: mvn -B spotbugs:spotbugs
+      run: mvn -B compile spotbugs:spotbugs
     - name: Upload Spotbugs report
       uses: actions/upload-artifact@v2
       with:
         name: spotbugs-report
-        path: target/spotbugs/spotbugs.xml
+        path: target/spotbugs.xml
         retention-days: 2
