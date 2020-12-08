@@ -46,7 +46,7 @@ jobs:
           uses: actions/upload-artifact@v2
           with:
             name: jacoco-report
-            path: target/site/jacoco/index.html
+            path: target/site/jacoco
             retention-days: 2
             
   spotbugs:
