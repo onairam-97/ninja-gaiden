@@ -116,7 +116,7 @@
                 <version>4.1.4</version>
                 <configuration>
                     <xmlOutput>true</xmlOutput>
-                    <xmlOutputDirectory>target/spotbugs</xmlOutputDirectory>
+                    <xmlOutputDirectory>${project.basedir}/target</xmlOutputDirectory>
                 </configuration>
             </plugin>
 
