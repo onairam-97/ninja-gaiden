@@ -34,7 +34,7 @@ public class StartPanel extends JPanel {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     Mainframe.getInstance().showPanel(Mainframe.GAME);
                     StatisticsPanel.getInstance().updateTime();
-                    LayerPanel.getInstance().initMusicBackground();
+                    //LayerPanel.getInstance().initMusicBackground();
                 }
             }
         });

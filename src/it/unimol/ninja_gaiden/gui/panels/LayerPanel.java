@@ -700,8 +700,8 @@ public class LayerPanel extends JPanel implements ActionListener {
             bossRoom = true;
             playerSprite.setX(playerSprite.getX() - 535);
             StatisticsPanel.getInstance().updateLayer();
-            stopMusic();
-             clip = this.sounds[1].play();
+            //stopMusic();
+             //clip = this.sounds[1].play();
         }
     }
 
@@ -716,7 +716,7 @@ public class LayerPanel extends JPanel implements ActionListener {
         }
     }
 
-    public void initMusicBackground() {
+    /*public void initMusicBackground() {
 
       new Thread(()-> {
           clip = this.sounds[0].play();
@@ -741,13 +741,13 @@ public class LayerPanel extends JPanel implements ActionListener {
               }
           }
       }).start();
-    }
+    }*/
 
-    public void stopMusic() {
+    /*public void stopMusic() {
 
         this.clip.close();
         this.clip.stop();
-    }
+    }*/
 
     /**
      * Dopo 3 secondi dalla morte del boss visuallizza il pannello di fine gioco e
