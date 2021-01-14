@@ -530,12 +530,12 @@ public class LayerPanel extends JPanel implements ActionListener {
                 new Rectangle(mapXRightCollision2, playerSprite.getY() + 53, 240, 54),
                 new Rectangle(mapXRightCollision3, playerSprite.getY() + 17, 20, 90)};
 
-        this.sounds = new Sound[] {
+        /*this.sounds = new Sound[] {
                 Resources.getSound("/sound_effects/stage_1_soundtrack.wav"),
                 Resources.getSound("/sound_effects/boss_room_soundtrack.wav"),
                 Resources.getSound("/sound_effects/Game_Over_soundtrack.wav"),
                 Resources.getSound("/sound_effects/ninja_gaiden_win_soundtrack.wav"),
-                Resources.getSound("/sound_effects/26.wav")};
+                Resources.getSound("/sound_effects/26.wav")};*/
     }
 
     public void collide() {
