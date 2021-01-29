@@ -109,7 +109,7 @@
                 </executions>
             </plugin>
 
-            <!-- SpotBugs -->
+            <!-- SpotBugs  -->
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
